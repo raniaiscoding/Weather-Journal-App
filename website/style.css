@@ -1,0 +1,108 @@
+body{
+    background: #222;
+    background-image: url("https://source.unsplash.com/1600x900/?nature");
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+    
+}
+
+#app{
+    border-radius: 30px;
+    padding: 2em;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    
+    background: #000000d0;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.entry{
+    display: block;
+    background: rgba(59, 74, 107, .4);
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#3b4a6b;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    width: 190px;
+    height: 35px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px #444;
+}
+
+label{
+    font-size: 20px;
+}
+.headline{
+    font-size: 36px;
+}
+
+input{
+    font-size: 18px;
+    text-align: top left;
+}
+textarea{
+    background:#3b4a6b;
+    color: #f0d43a;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+}
+
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+} 
